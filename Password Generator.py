@@ -3,7 +3,7 @@ symbols = "qwertyuiop1234567890asdfghjklzxcvbnm._QWERTYUIOPASDFGHJKLZXCVBNM"
 symbols = list(symbols)
 false = True
 while false:
-    length = input("Длина пароля: ")
+    length = input("Length of password: ")
     try:
         int(length)
         break
